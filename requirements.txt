@@ -1,0 +1,19 @@
+# Face Blur Application Dependencies
+# Core web framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Computer vision and image processing
+opencv-python==4.8.1.78
+mediapipe==0.10.7
+numpy==1.24.3
+
+# File handling and utilities
+Pillow==10.0.1
+
+# Optional: For better performance
+# opencv-contrib-python==4.8.1.78  # Uncomment if you need additional OpenCV features
+
+# Development dependencies (optional)
+# python-dotenv==1.0.0  # For environment variables
+# gunicorn==21.2.0      # For production deployment
