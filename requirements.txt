@@ -6,7 +6,7 @@ Werkzeug==2.3.7
 # Computer vision and image processing
 opencv-python==4.8.1.78
 mediapipe==0.10.7
-numpy==1.24.3
+numpy>=1.26.0,<2.2.0  # Updated to be compatible with TensorFlow
 
 # File handling and utilities
 Pillow==10.0.1
